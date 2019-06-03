@@ -1,0 +1,5 @@
+
+State Machine - |stopwach|stopwatch_01:inst|msecond_counter_low
+Name msecond_counter_low.1001 
+msecond_counter_low.0000 0 
+msecond_counter_low.1001 1 

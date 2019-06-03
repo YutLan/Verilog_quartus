@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pin_planner>
+	<pin_info>
+		<pin name="HEX00" source="Pin Planner" >
+		</pin>
+		<pin name="HEX01" source="Pin Planner" >
+		</pin>
+		<pin name="HEX02" source="Pin Planner" >
+		</pin>
+		<pin name="HEX03" source="Pin Planner" >
+		</pin>
+		<pin name="HEX04" source="Pin Planner" >
+		</pin>
+		<pin name="HEX05" source="Pin Planner" >
+		</pin>
+		<pin name="HEX06" source="Pin Planner" >
+		</pin>
+		<pin name="HEX10" source="Pin Planner" >
+		</pin>
+		<pin name="HEX11" source="Pin Planner" >
+		</pin>
+		<pin name="HEX12" source="Pin Planner" >
+		</pin>
+		<pin name="HEX13" source="Pin Planner" >
+		</pin>
+		<pin name="HEX14" source="Pin Planner" >
+		</pin>
+		<pin name="HEX15" source="Pin Planner" >
+		</pin>
+		<pin name="HEX16" source="Pin Planner" >
+		</pin>
+		<pin name="HEX20" source="Pin Planner" >
+		</pin>
+		<pin name="HEX21" source="Pin Planner" >
+		</pin>
+		<pin name="HEX22" source="Pin Planner" >
+		</pin>
+		<pin name="HEX23" source="Pin Planner" >
+		</pin>
+		<pin name="HEX24" source="Pin Planner" >
+		</pin>
+		<pin name="HEX25" source="Pin Planner" >
+		</pin>
+	</pin_info>
+	<buses>
+	</buses>
+	<group_file_association>
+	</group_file_association>
+	<pin_planner_file_specifies>
+	</pin_planner_file_specifies>
+</pin_planner>
