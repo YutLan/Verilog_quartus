@@ -1,0 +1,365 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\FL\sc_computer_sim\sc_computer_student\simulation\modelsim
+valu
+IEGdoXVTMQ>0TzSinGaKi01
+VKc:bVz32gc5X2ZbjUde9O3
+Z1 dF:\FL\sc_computer_sim\sc_computer_student\simulation\modelsim
+w1559540474
+8F:/FL/sc_computer_sim/sc_computer_student/source/alu.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/alu.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source -O0
+!i10b 1
+!s100 oEBe5[^9e@P3LQ[eNWHDi3
+!s85 0
+!s108 1559549334.731000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/alu.v|
+!s101 -O0
+vdff32
+IB`bjB3:C1MhDH7Q;[12173
+VUO7_EzIi9>SeN7M;XG9<c0
+R1
+w1305031718
+8F:/FL/sc_computer_sim/sc_computer_student/source/dff32.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/dff32.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Y0gRhe3Qb=`]Z:5?VL9:i0
+!s85 0
+!s108 1559549334.434000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/dff32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/dff32.v|
+!s101 -O0
+vio_input_mux
+IQ`gT;_F>LgcWIQUYFGITn0
+VE]W_C0AC;VoBAl[RC@dLB2
+R1
+w1559377460
+8F:/FL/sc_computer_sim/sc_computer_student/source/io_input_mux.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/io_input_mux.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 la6^7<S56GOn[Zfz_C4L12
+!s85 0
+!s108 1559549334.192000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/io_input_mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/io_input_mux.v|
+!s101 -O0
+vio_input_reg
+ImgR6;ddJJTUAi1RM7Pf=a2
+Va`W>ea3e2a]BE_LJo_3@V1
+R1
+w1559377613
+8F:/FL/sc_computer_sim/sc_computer_student/source/io_input_reg.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/io_input_reg.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 e87Fog2;A<6UV_d?[kKWE2
+!s85 0
+!s108 1559549333.936000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/io_input_reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/io_input_reg.v|
+!s101 -O0
+vio_output_reg
+IKYImzJ3g5RLm?koRaNc;U0
+V?f=h:WaAWKdngnaa?QSJj2
+R1
+w1559464278
+8F:/FL/sc_computer_sim/sc_computer_student/source/io_output_reg.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/io_output_reg.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 FAXc56ZPYc0acjBoDdNCn3
+!s85 0
+!s108 1559549333.726000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/io_output_reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/io_output_reg.v|
+!s101 -O0
+vlpm_ram_dq_dram
+I]aG:WiV:59h>Hzm`4C5;C3
+V;^>UgMFOjF@EZ@A<NMAW`0
+R1
+w1305005947
+8F:/FL/sc_computer_sim/sc_computer_student/source/lpm_ram_dq_dram.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/lpm_ram_dq_dram.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 b6UEHYiRWSGVRmh=a?a^V3
+!s85 0
+!s108 1559549333.478000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/lpm_ram_dq_dram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/lpm_ram_dq_dram.v|
+!s101 -O0
+vlpm_rom_irom
+Io3d93N@AhUL_H9o2EzCn50
+V6I?:oUA0HYdli42?U:6:L0
+R1
+w1305004957
+8F:/FL/sc_computer_sim/sc_computer_student/source/lpm_rom_irom.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/lpm_rom_irom.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 6m4U=T?zR;3HaJB=VIcNH2
+!s85 0
+!s108 1559549333.251000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/lpm_rom_irom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/lpm_rom_irom.v|
+!s101 -O0
+vmux2x32
+IBGSNXHUBJS`i[_djohN0B1
+V_8o=]o8CzEDeX@^n?a@zP3
+R1
+w1252908544
+8F:/FL/sc_computer_sim/sc_computer_student/source/mux2x32.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/mux2x32.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 neh7o;QGFT?]]4UWl3n310
+!s85 0
+!s108 1559549332.746000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/mux2x32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/mux2x32.v|
+!s101 -O0
+vmux2x5
+I5MNoIZYUH=iE1EQdK:I721
+Vah3g>_]Y^Qz2GXD7HR^<<3
+R1
+w1253170143
+8F:/FL/sc_computer_sim/sc_computer_student/source/mux2x5.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/mux2x5.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 [EZKC`OQOO^j_^3m4=N912
+!s85 0
+!s108 1559549333.006000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/mux2x5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/mux2x5.v|
+!s101 -O0
+vmux4x32
+IZg79?6Y^PF?RzBzNQ8zh^1
+VM:hYY`k:C]4^:^k7d8C]M0
+R1
+w1252998688
+8F:/FL/sc_computer_sim/sc_computer_student/source/mux4x32.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/mux4x32.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 _j1[be63Wco5J:J_7;4[]2
+!s85 0
+!s108 1559549332.523000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/mux4x32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/mux4x32.v|
+!s101 -O0
+vregfile
+IjHDi>Aken3la7dC<l?=LZ3
+VHL?YD<z4Tlb1gm`0^XW@D2
+R1
+w1559371151
+8F:/FL/sc_computer_sim/sc_computer_student/source/regfile.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/regfile.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 6H_08HXJ2HdK8BULR98m>3
+!s85 0
+!s108 1559549332.307000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/regfile.v|
+!s101 -O0
+vsc_computer
+ImZJ>gFI73@]2J5EC?zD401
+VYSUVJ5i;CYYBjoL54XB>Y0
+R1
+w1559548896
+8F:/FL/sc_computer_sim/sc_computer_student/source/sc_computer.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/sc_computer.v
+L0 9
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ]1jZAdg@95KX=mZ1WTLY21
+!s85 0
+!s108 1559549332.068000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/sc_computer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/sc_computer.v|
+!s101 -O0
+vsc_computer_sim
+!i10b 1
+!s100 gzDHOYL6kOf[JjS=_MM8D3
+I5NSON54aX51BR]zNEPO^j2
+V^jiC<6F7]doek[nRMoOol1
+R1
+w1559549311
+8F:/FL/sc_computer_sim/sc_computer_student/../sc_computer_sim.v
+FF:/FL/sc_computer_sim/sc_computer_student/../sc_computer_sim.v
+L0 26
+R2
+r1
+!s85 0
+31
+!s108 1559549334.940000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/../sc_computer_sim.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/..|F:/FL/sc_computer_sim/sc_computer_student/../sc_computer_sim.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/.. -O0
+vsc_cpu
+IGU[<bTa;alY_Y14=59cOe0
+V:mi8;^<LZUMNBc_]kEVbj2
+R1
+w1559370995
+8F:/FL/sc_computer_sim/sc_computer_student/source/sc_cpu.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/sc_cpu.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 CLYiW<e`9S;V4^3PhC8i;3
+!s85 0
+!s108 1559549331.886000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/sc_cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/sc_cpu.v|
+!s101 -O0
+vsc_cu
+IRekJd9zL3aS?g2]m6z2U]2
+VAlN72Pg@l_c4ao;V0co7c3
+R1
+w1559120563
+8F:/FL/sc_computer_sim/sc_computer_student/source/sc_cu.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/sc_cu.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 4i>O0<_756aXkMWfz;TZV1
+!s85 0
+!s108 1559549331.659000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/sc_cu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/sc_cu.v|
+!s101 -O0
+vsc_datamem
+IO;nM6W4XQFmAaLg31Dlbo2
+VRzo51LE[eY:;>5jFDJh[P0
+R1
+w1559548924
+8F:/FL/sc_computer_sim/sc_computer_student/source/sc_datamem.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/sc_datamem.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 bm[UTUK?7gC^1Z@]YkQ[l1
+!s85 0
+!s108 1559549331.455000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/sc_datamem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/sc_datamem.v|
+!s101 -O0
+vsc_instmem
+Iimk@4Cn^ZS9PkZMdkTTUN3
+VkU`UIUgSeP=c3TJLN64XO2
+R1
+w1305084523
+8F:/FL/sc_computer_sim/sc_computer_student/source/sc_instmen.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/sc_instmen.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 b;YC8>hB7Seb]Wi<mGd0i3
+!s85 0
+!s108 1559549331.110000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/sc_instmen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/sc_instmen.v|
+!s101 -O0
+vsevenseg
+I1D[2KH2D^B3;3U2RaaOno3
+V<kz4<ET@H::]Aoef`6B9U3
+R1
+w1559525738
+8F:/FL/sc_computer_sim/sc_computer_student/source/sevenseg.v
+FF:/FL/sc_computer_sim/sc_computer_student/source/sevenseg.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 _HJehDZ:KS@;h5zhQOX:=1
+!s85 0
+!s108 1559549330.797000
+!s107 F:/FL/sc_computer_sim/sc_computer_student/source/sevenseg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FL/sc_computer_sim/sc_computer_student/source|F:/FL/sc_computer_sim/sc_computer_student/source/sevenseg.v|
+!s101 -O0
