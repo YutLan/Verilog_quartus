@@ -7,110 +7,110 @@
 # vmap work rtl_work
 # Modifying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/sevenseg.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/sevenseg.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module sevenseg
 # 
 # Top level modules:
 # 	sevenseg
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/sc_instmen.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/sc_instmen.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module sc_instmem
 # 
 # Top level modules:
 # 	sc_instmem
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/sc_datamem.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/sc_datamem.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module sc_datamem
 # 
 # Top level modules:
 # 	sc_datamem
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/sc_cu.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/sc_cu.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module sc_cu
 # 
 # Top level modules:
 # 	sc_cu
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/sc_cpu.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/sc_cpu.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module sc_cpu
 # 
 # Top level modules:
 # 	sc_cpu
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/sc_computer.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/sc_computer.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module sc_computer
 # 
 # Top level modules:
 # 	sc_computer
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/regfile.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/regfile.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module regfile
 # 
 # Top level modules:
 # 	regfile
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/mux4x32.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/mux4x32.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module mux4x32
 # 
 # Top level modules:
 # 	mux4x32
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/mux2x32.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/mux2x32.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module mux2x32
 # 
 # Top level modules:
 # 	mux2x32
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/mux2x5.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/mux2x5.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module mux2x5
 # 
 # Top level modules:
 # 	mux2x5
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/lpm_rom_irom.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/lpm_rom_irom.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module lpm_rom_irom
 # 
 # Top level modules:
 # 	lpm_rom_irom
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/lpm_ram_dq_dram.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/lpm_ram_dq_dram.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module lpm_ram_dq_dram
 # 
 # Top level modules:
 # 	lpm_ram_dq_dram
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/io_output_reg.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/io_output_reg.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module io_output_reg
 # 
 # Top level modules:
 # 	io_output_reg
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/io_input_reg.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/io_input_reg.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module io_input_reg
 # 
 # Top level modules:
 # 	io_input_reg
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/io_input_mux.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/io_input_mux.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module io_input_mux
 # 
 # Top level modules:
 # 	io_input_mux
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/dff32.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/dff32.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module dff32
 # 
 # Top level modules:
 # 	dff32
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/source {F:/FL/sc_computer_sim/sc_computer_student/source/alu.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/alu.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
 # 
-# vlog -vlog01compat -work work +incdir+F:/FL/sc_computer_sim/sc_computer_student/.. {F:/FL/sc_computer_sim/sc_computer_student/../sc_computer_sim.v}
+# vlog -vlog01compat -work work +incdir+F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/.. {F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/../sc_computer_sim.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module sc_computer_sim
 # 
@@ -140,27 +140,43 @@
 # Loading work.io_input_reg
 # Loading work.io_input_mux
 # Loading work.sevenseg
-# ** Warning: (vsim-3017) F:/FL/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): [TFMPC] - Too few port connections. Expected 17, found 11.
+# ** Warning: (vsim-3017) F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): [TFMPC] - Too few port connections. Expected 17, found 11.
 # 
 #         Region: /sc_computer_sim/sc_computer_instance
-# ** Warning: (vsim-3722) F:/FL/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): [TFMPC] - Missing connection for port 'hex0'.
+# ** Error: (vsim-3053) F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): Illegal output or inout port connection for "port 'resetn'".
 # 
-# ** Warning: (vsim-3722) F:/FL/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): [TFMPC] - Missing connection for port 'hex1'.
+#         Region: /sc_computer_sim/sc_computer_instance
+# ** Warning: (vsim-3015) F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): [PCDPC] - Port size (5 or 5) does not match connection size (32) for port 'in_port0'. The port definition is at: F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/sc_computer.v(10).
 # 
-# ** Warning: (vsim-3722) F:/FL/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): [TFMPC] - Missing connection for port 'hex2'.
+#         Region: /sc_computer_sim/sc_computer_instance
+# ** Warning: (vsim-3015) F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): [PCDPC] - Port size (5 or 5) does not match connection size (32) for port 'in_port1'. The port definition is at: F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/sc_computer.v(10).
 # 
-# ** Warning: (vsim-3722) F:/FL/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): [TFMPC] - Missing connection for port 'hex3'.
+#         Region: /sc_computer_sim/sc_computer_instance
+# ** Warning: (vsim-3722) F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): [TFMPC] - Missing connection for port 'hex0'.
 # 
-# ** Warning: (vsim-3722) F:/FL/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): [TFMPC] - Missing connection for port 'hex4'.
+# ** Warning: (vsim-3722) F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): [TFMPC] - Missing connection for port 'hex1'.
 # 
-# ** Warning: (vsim-3722) F:/FL/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): [TFMPC] - Missing connection for port 'hex5'.
+# ** Warning: (vsim-3722) F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): [TFMPC] - Missing connection for port 'hex2'.
 # 
+# ** Warning: (vsim-3722) F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): [TFMPC] - Missing connection for port 'hex3'.
 # 
-# add wave *
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run -all
-#                    0resetn=0 clock_50M=x  mem_clk =1
-#               125000hex0 = zz  hex1 = zz 
+# ** Warning: (vsim-3722) F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): [TFMPC] - Missing connection for port 'hex4'.
+# 
+# ** Warning: (vsim-3722) F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/../sc_computer_sim.v(53): [TFMPC] - Missing connection for port 'hex5'.
+# 
+# ** Warning: (vsim-3015) F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/sc_computer.v(57): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'in_port0'. The port definition is at: F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/sc_datamem.v(2).
+# 
+#         Region: /sc_computer_sim/sc_computer_instance/dmem
+# ** Warning: (vsim-3015) F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/sc_computer.v(57): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'in_port1'. The port definition is at: F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/sc_datamem.v(2).
+# 
+#         Region: /sc_computer_sim/sc_computer_instance/dmem
+# ** Warning: (vsim-3015) F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/sc_computer.v(73): [PCDPC] - Port size (4 or 4) does not match connection size (1) for port 'data'. The port definition is at: F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/sevenseg.v(1).
+# 
+#         Region: /sc_computer_sim/sc_computer_instance/sevenseg2
+# ** Warning: (vsim-3015) F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/sc_computer.v(75): [PCDPC] - Port size (4 or 4) does not match connection size (1) for port 'data'. The port definition is at: F:/github_project/Verilog_quartus/sc_computer_sim/sc_computer_student/source/sevenseg.v(1).
+# 
+#         Region: /sc_computer_sim/sc_computer_instance/sevenseg4
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./sc_computer_run_msim_rtl_verilog.do PAUSED at line 28

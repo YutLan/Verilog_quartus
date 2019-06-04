@@ -1,20 +1,18 @@
 module pipelined_computer (resetn,clock,mem_clock, pc,inst,ealu,malu,walu);
 //定义顶层模块pipelined_computer，作为工程文件的顶层入口，如图1-1建立工程时指定。
-
 input resetn, clock, mem_clock;
 //定义整个计算机module和外界交互的输入信号，包括复位信号resetn、时钟信号clock、
 //以及一个和clock同频率但反相的mem_clock信号。mem_clock用于指令同步ROM和
 //数据同步RAM使用，其波形需要有别于实验一。
 //这些信号可以用作仿真验证时的输出观察信号。
-
 output [31:0] pc,inst,ealu,malu,walu;
 //模块用于仿真输出的观察信号。缺省为wire型。
-
 wire [31:0] bpc,jpc,npc,pc4,ins, inst;
 //模块间互联传递数据或控制信息的信号线,均为32位宽信号。IF取指令阶段。
 wire [31:0] dpc4,da,db,dim;
 //模块间互联传递数据或控制信息的信号线,均为32位宽信号。ID指令译码阶段。
 wire [31:0] epc4,ea,eb,eimm;
+
 //模块间互联传递数据或控制信息的信号线,均为32位宽信号。EXE指令运算阶段。
 wire [31:0] mb,mmo;
 //模块间互联传递数据或控制信息的信号线,均为32位宽信号。MEM访问数据阶段。
@@ -37,7 +35,11 @@ wire mwreg,mm2reg,mwmem; // mem stage
 wire wwreg,wm2reg; // wb stage
 //来自于MEM/WB流水线寄存器，WB阶段使用的信号。
 pipepc prog_cnt ( npc,wpcir,clock,resetn,pc );
+//wpcir 控制pc=npc
 //程序计数器模块，是最前面一级IF流水段的输入。
+
+//npc=new pc;会在if_stage阶段生成 ,pc的四个来源和去向pc4,jpc,bpc(pc+4+mem),da=jr 
+//定义memclock=-clock
 pipeif if_stage ( pcsource,pc,bpc,da,jpc,npc,pc4,ins,mem_clock ); // IF stage
 //IF取指令模块，注意其中包含的指令同步ROM存储器的同步信号，
 //即输入给该模块的mem_clock信号，模块内定义为rom_clk。// 注意mem_clock。
@@ -47,14 +49,20 @@ pipeir inst_reg ( pc4,ins,wpcir,clock,resetn,dpc4,inst ); // IF/ID流水线寄�
 //IF/ID流水线寄存器模块，起承接IF阶段和ID阶段的流水任务。
 //在clock上升沿时，将IF阶段需传递给ID阶段的信息，锁存在IF/ID流水线寄存器
 //中，并呈现在ID阶段。
+
+
+//mrn,ern,wrn; //register n 在这里用来帮助寄存器forward
+//ewreg,em2reg,mm2reg //ex,mem等阶段写入寄存器
 pipeid id_stage ( mwreg,mrn,ern,ewreg,em2reg,mm2reg,dpc4,inst,
 wrn,wdi,ealu,malu,mmo,wwreg,clock,resetn,
 bpc,jpc,pcsource,wpcir,dwreg,dm2reg,dwmem,daluc,
 daluimm,da,db,dimm,drn,dshift,djal ); // ID stage
+
 //ID指令译码模块。注意其中包含控制器CU、寄存器堆、及多个多路器等。
 //其中的寄存器堆，会在系统clock的下沿进行寄存器写入，也就是给信号从WB阶段
 //传输过来留有半个clock的延迟时间，亦即确保信号稳定。
 //该阶段CU产生的、要传播到流水线后级的信号较多。
+
 pipedereg de_reg ( dwreg,dm2reg,dwmem,daluc,daluimm,da,db,dimm,drn,dshift,
 djal,dpc4,clock,resetn,ewreg,em2reg,ewmem,ealuc,ealuimm,
 ea,eb,eimm,ern0,eshift,ejal,epc4 ); // ID/EXE流水线寄存器
@@ -62,7 +70,6 @@ ea,eb,eimm,ern0,eshift,ejal,epc4 ); // ID/EXE流水线寄存器
 //在clock上升沿时，将ID阶段需传递给EXE阶段的信息，锁存在ID/EXE流水线
 //寄存器中，并呈现在EXE阶段。
 pipeexe exe_stage ( ealuc,ealuimm,ea,eb,eimm,eshift,ern0,epc4,ejal,ern,ealu ); // EXE stage
-41
 //EXE运算模块。其中包含ALU及多个多路器等。
 pipeemreg em_reg ( ewreg,em2reg,ewmem,ealu,eb,ern,clock,resetn,
 mwreg,mm2reg,mwmem,malu,mb,mrn); // EXE/MEM流水线寄存器
@@ -80,7 +87,7 @@ wwreg,wm2reg,wmo,walu,wrn); // MEM/WB流水线寄存器
 //在clock上升沿时，将MEM阶段需传递给WB阶段的信息，锁存在MEM/WB
 //流水线寄存器中，并呈现在WB阶段。
 mux2x32 wb_stage ( walu,wmo,wm2reg,wdi ); // WB stage
-//WB写回阶段模块。事实上，从设计原理图上可以看出，该阶段的逻辑功能部件只
+//WB写回阶段模块 。事实上，从设计原理图上可以看出，该阶段的逻辑功能部件只
 //包含一个多路器，所以可以仅用一个多路器的实例即可实现该部分。
 //当然，如果专门写一个完整的模块也是很好的。
 endmodule
